@@ -1,0 +1,78 @@
+.simple-header {
+  text-align: center;
+  background-color: #7b5e57;
+  color: white;
+  padding: 30px 15px;
+}
+
+.simple-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.simple-header p {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+/* Section À propos */
+.apropos-section {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.apropos-section h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #5a3e36;
+}
+
+.apropos-section p {
+  font-size: 1.1em;
+  line-height: 1.6em;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+/* Cartes de valeurs */
+.valeurs-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.valeur {
+  background-color: #f4ede7;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  flex: 1 1 250px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.valeur h3 {
+  margin-bottom: 10px;
+  color: #7b5e57;
+  font-size: 1.2em;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #eee;
+}
+
+.retour {
+  text-decoration: none;
+  color: #7b5e57;
+  font-weight: bold;
+}
+
+.retour:hover {
+  text-decoration: underline;
+}
