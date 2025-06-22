@@ -1,0 +1,79 @@
+body {
+  font-size: 16px;
+}
+
+.sommaire span {
+  width: 90%;
+  height: auto;
+  padding: 10px;
+}
+
+@media (max-width: 1024px) {
+  .cards {
+    gap: 20px;
+  }
+
+  .card {
+    width: 45%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 80%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  .titre-site h1 {
+    font-size: 2em;
+  }
+
+  .titre-site {
+    padding: 10px 20px;
+    top: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sommaire h1 {
+    font-size: 1.2em;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-text {
+    font-size: 0.9em;
+    padding: 10px;
+  }
+
+  .card-text h3 {
+    font-size: 1em;
+  }
+
+  footer {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+    gap: 10px;
+  }
+
+  .app {
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+  }
+}

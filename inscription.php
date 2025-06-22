@@ -2,7 +2,7 @@
 include("db.php");  
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Récupérer les données du formulaire
+   
     $nom = $_POST['nom'];
     $prenom= $_POST['prenom'];
     $email = $_POST['Email'];
@@ -34,20 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body class="body-inscription">
         <h2>Créer un compte</h2>
     <div class="structure-inscription">
-    <!-- <form method="POST" action="">
-        Nom : <input type="text" name="nom" required><br>
-        Email : <input type="email" name="Email" required><br>
-
-        Type de mot de passe :
-        <select name="choix">
-            <option value="1">Alphabétique</option>
-            <option value="2">Alpha + Numérique</option>
-            <option value="3">Alpha + Num + Spéciaux</option>
-        </select><br>
-
-        Longueur : <input type="number" name="taille" min="8" max="12" value="8"><br>
-        <input type="submit" value="S'inscrire">
-    </form> -->
+   
     <div class="form">
     <form class="form-inscription" method="POST" >
   <div>
