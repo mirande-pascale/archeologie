@@ -1,0 +1,442 @@
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+} 
+.banniere {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: "Georgia", serif;
+  margin-bottom: 30px;
+}
+
+.titre-site {
+  font-size: small;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.titre-site h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.titre-site p {
+  margin: 5px 0 0;
+  font-style: italic;
+  font-size: 1em;
+}
+
+.header-image {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  display: block;
+  filter: brightness(70%);
+  border-bottom: 4px solid #7b5e57;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #7b5e57;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  background-color: #a67c6b;
+  border-radius: 5px;
+}
+#togglemode{
+     display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 2px solid white;
+  color: #7b5e57;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+#togglemode:hover{
+   background-color: white;
+  color: #7b5e57;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    display: flex;
+    height: 100px;
+    background-color: black;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    bottom: 0;
+    margin-top: 20px;
+  }
+  footer span {
+    color: grey;
+  }
+  .copyright {
+    color: white;
+  }
+  .app {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .insta {
+    height: 32px;
+  }
+  .youtube {
+    height: 32px;
+  }
+  .facebook {
+    height: 32px;
+  }
+/* //////////////////////////////////////////////activites///////////////////////////////////////////////////// */
+
+.sommaire{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.sommaire span{
+    width:450px;
+    height: 250px;
+    text-align: center;
+}
+
+
+.activites-section {
+  padding: 40px 20px;
+  background-color: #f8f4f0;
+}
+a {
+    text-decoration: none;
+    color:whitesmoke;
+}
+ .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  cursor: pointer;
+}
+
+.card-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s ease;
+  display: block;
+}
+
+.card-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(123, 94, 87, 0.85); 
+  color: white;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  transition: opacity 0.4s ease;
+}
+
+.card:hover .card-text {
+  opacity: 1;
+}
+
+.card-text h3 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.card-text p {
+  font-size: 0.9em;
+  line-height: 1.4em;
+} */ 
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+.retour {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.retour:hover {
+  text-decoration: underline;
+}
+/* ///////////////////////////////////////////////////// apropos///////////////////////////////////////////*/
+.apropos-section {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.apropos-section h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #5a3e36;
+}
+
+.apropos-section p {
+  font-size: 1.1em;
+  line-height: 1.6em;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.valeurs-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.valeur {
+  background-color: #f4ede7;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  flex: 1 1 250px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.valeur h3 {
+  margin-bottom: 10px;
+  color: #7b5e57;
+  font-size: 1.2em;
+}
+
+/* /////////////////////////////////////////////////////////////////////contact///////////////////////////////// */
+.body-contact{
+  background-image: url("/images/fleur.webp");
+  background-size: cover;
+}
+  #form-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 20px;
+    width: 450px;
+    height: auto;
+    background-color:rgba(86, 46, 15, 0.756);
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid black;
+    color: aliceblue;
+    border-radius: 30px;
+    padding: 20px;
+    
+  } 
+  input:hover{
+    border:2px ridge black;
+  }
+  textarea:hover{
+    border:2px ridge black; 
+  }
+/* /////////////////////////////////////////connexion/////////////////////////////////////////////////////////////// */
+#body-connexion{
+    background-image: url("/images/cover-con.jpeg");
+    background-size: cover;
+}
+.structure{
+    display:flex;
+    justify-content: space-evenly;
+     background-color: rgba(75, 108, 121, 0.603); 
+} 
+#form-connexion {
+    display: flex; 
+     justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+    width: 450px;
+    height: auto;
+    background-color:rgba(32, 32, 31, 0.53);
+    margin: auto;
+    margin-top: 20px;
+    margin-left:150px;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    
+    
+  } 
+  .slogan{
+    margin-right: 100px;
+  }
+  .slogan p{
+     width:300px;
+     height:150px;
+     text-align: center;
+  }
+  .slogan h1{
+     width:350px;
+     height: 100px;
+  }
+  .h2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+    margin-left:260px;
+    background-color: rgba(47, 115, 142, 0.726);
+    width: 200px;
+    border-radius: 30px;
+
+  }
+  /* ////////////////////////////////////////////////////inscription/////////////////////////////////////////////// */
+  .body-inscription{
+    background-image: url("/images/art.jpg");
+    background-size: cover;
+  }
+  .body-inscription h2{
+    background-color: rgba(16, 15, 15, 0.822);
+    width: 300px;
+    border-radius: 20px;
+    margin:auto;
+    padding: 10px;
+    color: white;
+    text-align: center;
+  }
+  .form{
+    display:flex;
+   flex:2;
+   background-color:  #45453dc5
+  }
+  .partie{
+    display:flex;
+    flex:2;
+    text-align: center;
+    background-color: rgba(155, 93, 22, 0.856);
+  }
+
+   .form-inscription{
+    display: flex; 
+     justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    font-size: 20px;
+    width: 450px;
+    height: 400px;
+    background-color:rgba(97, 112, 29, 0.646);
+    margin: auto;
+    margin-top: 20px;
+    margin-right:150px;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px;
+  }
+  .structure-inscription{
+     display:flex;
+    justify-content: space-evenly;
+     background-color: rgba(121, 111, 99, 0.436);
+     height: 450px;
+  }
+  .slogan-inscription{
+     display:flex;
+     flex-direction: column;
+         margin-left:200px;
+  }
+  .slogan-inscription p{
+     width:350px;
+     height:150px;
+     /* text-align: center; */
+  }
+  .slogan-inscription h1{
+     width:350px;
+     height: 150px;
+  }
+/* ////////////////////////////////////////////////administration///////////////////////////////// */
+.body-admin {
+    background-color:rgba(116, 95, 25, 0.591);
+    margin:0;
+  }
+  
+  body.nuit {
+    background-color: rgba(11, 10, 5, 0.68);
+    color: white;
+  }
+  #table{
+    padding: 30px;
+    color:azure;
+}
+.table-text{
+    background-color:whitesmoke;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+  
